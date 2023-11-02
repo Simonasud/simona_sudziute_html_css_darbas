@@ -1,0 +1,80 @@
+@mixin text {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  color: $color-or;
+  padding-top: 2.4rem;
+}
+@mixin title {
+  font-size: 2rem;
+  color: $color-dark;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+@mixin gray-text {
+  color: $color-dark3;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+@mixin hero {
+  position: relative;
+  display: flex;
+  align-items: start;
+  flex-wrap: nowrap;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+@mixin heroLeft {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.2rem;
+}
+
+@mixin heroTitle2 {
+  order: 1;
+  color: $color-pink;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16rem;
+  padding-top: 8rem;
+}
+@mixin heroTitle {
+  order: 2;
+  color: $color-dark;
+  font-size: 4.8rem;
+  font-weight: 900;
+  width: 27.4rem;
+}
+@mixin heroText {
+  order: 3;
+  color: $color-dark2;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 27.4rem;
+  padding-bottom: 0.2rem;
+}
+@mixin heroButton {
+  order: 4;
+  display: inline-block;
+  width: 18.8rem;
+  height: 7.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $color-dark;
+  border-radius: 10rem;
+  border: 1px solid transparent;
+  background-image: url(/assets/border.svg);
+  margin-bottom: 5rem;
+}
+@mixin footerText {
+  font-size: 2rem;
+  font-weight: 400;
+  color: $color-gray;
+  padding-bottom: 10.5rem;
+}

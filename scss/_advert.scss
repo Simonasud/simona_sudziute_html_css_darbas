@@ -1,0 +1,40 @@
+.advert--container{
+  background-image: url(/assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.advert__title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: $color-dark;
+  padding-left: 3.2rem;
+  padding-bottom: 1.6rem;
+  margin-bottom: 0;
+  padding-right: 3.2rem;
+  padding-top: 20rem;
+}
+.advert__text {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  padding-bottom: 2rem;
+  width: 36.4rem;
+}
+
+.unlisted {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 2rem;
+  padding-top: 8rem;
+}
+li {
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  overflow: hidden;
+}
+
+

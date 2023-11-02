@@ -1,0 +1,59 @@
+.hero__container {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+.hero--left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.2rem;
+}
+
+.hero__img {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 100%;
+  height: 27.8rem;
+}
+
+.hero__title2 {
+  order: 1;
+  color: $color-pink;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16rem;
+  padding-top: 8rem;
+}
+.hero__title {
+  order: 2;
+  color: $color-dark;
+  font-size: 4.8rem;
+  font-weight: 900;
+  width: 27.4rem;
+}
+.hero__text {
+  order: 3;
+  color: $color-dark2;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 27.4rem;
+  padding-bottom: 0.2rem;
+}
+.hero__button {
+  order: 4;
+  display: inline-block;
+  width: 18.8rem;
+  height: 7.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $color-dark;
+  border-radius: 10rem;
+  border: 1px solid transparent;
+  background-image: url(/assets/border.svg);
+  margin-bottom: 5rem;
+}
